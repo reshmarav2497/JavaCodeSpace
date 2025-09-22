@@ -39,4 +39,7 @@ public class DecimalToBinary {
         }
         return ans;
     }
+
+    //Time Complexity --> O(log n)
+    //Space Complexity --> O(1)
 }
