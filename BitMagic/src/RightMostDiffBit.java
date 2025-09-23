@@ -36,6 +36,6 @@ public class RightMostDiffBit {
 
     }
 
-    //Time Complexity --> 
-    //Space Complexity --> 
+    //Time Complexity --> max(log m, log n)
+    //Space Complexity --> O(1);
 }
