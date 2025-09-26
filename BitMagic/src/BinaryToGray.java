@@ -7,18 +7,27 @@ public class BinaryToGray {
         int n = sc.nextInt();
         sc.close();
 
-        int ans = n;
-        while(n > 0){
-            if(n == ans){
-                ans = n%2;
-            }else{
-                ans += (ans ^ (n%2));
-            }
-            n /= 2;
-        }
-        System.out.println(ans);
+//        int prev = 0;
+//        if(n != 0){
+//            prev = n%2;
+//        }else{
+//            System.out.println(0);
+//        }
+//        int ans = 0, pow = 1;
+//        while(n > 0){
+//            n /= 2;
+//            int rem = n % 2;
+//            int xor = (rem ^ prev);
+//            ans += xor * pow;
+//            pow *= 2;
+//            prev = rem;
+//        }
+//        System.out.println(ans);
+
+        //Efficient solution with O(1) TC
+        System.out.println(n ^ (n>>1));
     }
 
-    //Time Complexity --> O(log n)
+    //Time Complexity --> O(log n) --> Brute force
     //Space Complexity --> O(1)
 }
