@@ -17,6 +17,7 @@ public class GetSumOfTwoBinary {
         System.out.println(sum.toString(2));
     }
 
+
     //Time Complexity --> O(n)
     //Space Complexity --> O(n)
 }
