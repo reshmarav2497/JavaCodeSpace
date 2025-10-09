@@ -23,7 +23,6 @@ public class SearchElement {
         }
         System.out.println("Element not found.");
     }
-
     //Time Complexity --> O(n)
     //Space Complexity --> O(1)
 }
