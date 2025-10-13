@@ -37,6 +37,13 @@ public class Main {
         //It will internally call toString method
         //If it does not find the toString method in object reference it will call toString of java
         System.out.println(h1);
-    }
 
+
+        //Singleton Class
+
+        Singleton s1 = Singleton.getInstance();
+        Singleton s2 = Singleton.getInstance();
+
+        System.out.println(s1 == s2);
+    }
 }

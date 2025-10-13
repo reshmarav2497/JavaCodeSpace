@@ -11,6 +11,11 @@ public class Human {
     static int marriageAge = 21;
     static int count = 0;
 
+    @Override
+    public String toString(){
+        return name + " of age " + age + " gets a salary of " + salary + " and " + (isMarried ? "is " : "is not ") + "married";
+    }
+
     Human(String name, int age, int salary, boolean isMarried){
         this.name = name;
         this.age = age;
