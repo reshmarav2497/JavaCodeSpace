@@ -27,6 +27,6 @@ public class ArrayOperations {
 
         System.out.println("Size of the array -> " + arr.size());
 
-        System.out.println("arr --> " + arr.toString());
+        System.out.println("arr --> " + arr);
     }
 }
