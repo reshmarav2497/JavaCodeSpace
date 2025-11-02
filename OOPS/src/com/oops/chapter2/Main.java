@@ -2,6 +2,8 @@ package com.oops.chapter2;
 
 public class Main {
 
+    int xyz = 0;
+
     static double piVal;
 
     //Called only once when class is loaded
