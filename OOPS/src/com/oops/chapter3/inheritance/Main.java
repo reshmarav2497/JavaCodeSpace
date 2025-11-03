@@ -18,6 +18,9 @@ public class Main {
         Eagle e = new Eagle();
         e.canBirdFly(e.canFly);
 
+        Student1 s1 = new Student1();
+        s1.callStudy();
+
         /*
         ------------------------------------------------------------
         -->Types of Inheritance
