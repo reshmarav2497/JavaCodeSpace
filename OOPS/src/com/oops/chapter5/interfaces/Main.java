@@ -1,4 +1,4 @@
-package com.oops.chapter5.abstractdemo.interfaces;
+package com.oops.chapter5.interfaces;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.oops.chapter5.abstractdemo.interfaces;
+package com.oops.chapter5.interfaces;
 
 public class Circle implements Shape{
     double r;
