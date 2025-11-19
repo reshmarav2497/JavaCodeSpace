@@ -1,1 +1,1 @@
-Practice Java Coding and DSA
+Practice Java and DSA
