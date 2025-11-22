@@ -13,5 +13,8 @@ public class Main {
 
         System.out.println(items1.get(1));
 
+        items1.printData(10);
+        items1.printData("Hello");
+
     }
 }
