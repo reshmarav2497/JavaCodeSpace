@@ -10,7 +10,7 @@ public class Main {
         Calculator sub = (a, b) -> a - b;
 
         Calculator div = (a, b) -> {
-            if(b <= 0) return -1;
+            if(b == 0) return -1;
             return a/b;
         };
 
