@@ -1,4 +1,4 @@
-package com.oops.chapter6.ExceptionHandling;
+package com.oops.chapter6.exceptionHandling;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

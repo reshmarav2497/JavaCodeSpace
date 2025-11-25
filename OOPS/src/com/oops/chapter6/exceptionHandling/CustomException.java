@@ -1,4 +1,4 @@
-package com.oops.chapter6.ExceptionHandling;
+package com.oops.chapter6.exceptionHandling;
 
 public class CustomException extends Exception {
     public CustomException(String msg){
