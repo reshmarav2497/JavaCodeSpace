@@ -1,1 +1,1 @@
-Practice Java and DSA
+Practice Java and DS & Algo
