@@ -1,1 +1,2 @@
-Practice Java and DS & Algo
+Java
+DS & Algo
