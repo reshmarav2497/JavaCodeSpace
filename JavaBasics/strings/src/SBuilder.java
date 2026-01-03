@@ -1,4 +1,4 @@
-public class SB {
+public class SBuilder {
     public static void main(String[] args) {
 
         //StringBuilder for better performance
