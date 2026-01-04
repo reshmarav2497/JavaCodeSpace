@@ -18,6 +18,20 @@ public class Main {
         //inverted triangle pattern
         Patterns.pattern3(n);
 
+        System.out.println("--------------------------");
+        //pyramid
+        Patterns.pattern4(n);
+
+        System.out.println("--------------------------");
+        /*
+            *
+            * *
+            * * *
+            * *
+            *
+         */
+        Patterns.pattern5(n);
+
         sc.close();
     }
 }
