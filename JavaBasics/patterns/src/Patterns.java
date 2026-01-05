@@ -53,4 +53,22 @@ public class Patterns {
             System.out.println();
         }
     }
+
+    public static void pattern6(int n){
+        for (int i = 1; i <= (2*n)-1; i++) {
+
+            //spaces
+            int spaces = (i <= n) ? (n-i) : (i-n);
+            for (int s = 1; s <= spaces; s++) {
+                System.out.print(" ");
+            }
+
+            //columns
+            int cols = (i <= n) ? i : n - (i - n);
+            for (int j = 1; j <= cols; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
 }

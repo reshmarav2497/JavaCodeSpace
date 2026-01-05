@@ -32,6 +32,17 @@ public class Main {
          */
         Patterns.pattern5(n);
 
+
+        System.out.println("--------------------------");
+        /*
+             *
+            * *
+           * * *
+            * *
+             *
+         */
+        Patterns.pattern6(n);
+
         sc.close();
     }
 }
