@@ -68,6 +68,7 @@ public class Patterns {
             for (int j = 1; j <= cols; j++) {
                 System.out.print("* ");
             }
+
             System.out.println();
         }
     }
@@ -89,7 +90,6 @@ public class Patterns {
             for(int k = 2; k <= i; k++){
                 System.out.print(k);
             }
-
 
             System.out.println();
         }
@@ -115,7 +115,6 @@ public class Patterns {
             for (int k = 2; k <= cols; k++) {
                 System.out.print(k);
             }
-
 
             System.out.println();
         }
